@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.5.0",
+    "eslint": "^9.0.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-babel": "^5.3.1",
@@ -15,7 +15,7 @@
     "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
-    "@nomiclabs/hardhat-etherscan": "^3.0.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
     "@openzeppelin/contracts": "^4.7.3",
     "@tenderly/hardhat-tenderly": "^1.0.10",
     "@typechain/ethers-v5": "^10.1.0",
@@ -32,7 +32,7 @@
     "node-watch": "^0.7.0",
     "qrcode-terminal": "^0.12.0",
     "ramda": "^0.27.1",
-    "solidity-coverage": "^0.7.21"
+    "solidity-coverage": "^0.8.0"
   },
   "scripts": {
     "chain": "hardhat node --network hardhat --no-deploy",
